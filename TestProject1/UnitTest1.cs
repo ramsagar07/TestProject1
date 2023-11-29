@@ -18,7 +18,7 @@ namespace TestProject1
             appiumOptions.AddAdditionalCapability("platformName", "Android");
             appiumOptions.AddAdditionalCapability("automationName", "UiAutomator2");
             appiumOptions.AddAdditionalCapability("deviceName", "Android Emulator");
-            appiumOptions.AddAdditionalCapability("udid", "RF8N21BZZ4A");
+            appiumOptions.AddAdditionalCapability("udid", "2C261FDH3003CJ");
             appiumOptions.AddAdditionalCapability("platform Version", "12");
             appiumOptions.AddAdditionalCapability("app", "C:\\Users\\iray\\smart3d\\dk.resound.smart3d-Signed.apk");
             appiumOptions.AddAdditionalCapability("appPackage", "dk.resound.smart3d");
