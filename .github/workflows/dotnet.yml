@@ -27,6 +27,10 @@ jobs:
       run: appium &
     - name: Run SpecFlow tests
       run: dotnet test --configuration Release
+    - name: Print Current Directory
+      run: | 
+              ls -al
+
     - name: Test
       run: dotnet test --no-build --verbosity normal
 
