@@ -28,11 +28,11 @@ jobs:
     - name: Install Appium dependencies
       run: |
         npm install -g appium
-        npm install -g appium@1.22.3
+        npm install -g appium@latest
     - name: Run SpecFlow tests
       run: dotnet test --configuration Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Appium Server Action
-      uses: moatazeldebsy/Appium-Server-GitHub-Action@1.22.3
+      uses: moatazeldebsy/Appium-Server-GitHub-Action@latest
 
