@@ -25,10 +25,6 @@ jobs:
       run: dotnet build --no-restore
     - name: Start Appium server
       run: appium &
-    - name: Install Appium dependencies
-      run: |
-        npm install -g appium
-        npm install -g appium@latest
     - name: Run SpecFlow tests
       run: dotnet test --configuration Release
     - name: Test
