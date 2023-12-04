@@ -27,10 +27,10 @@ jobs:
     - name: Run SpecFlow tests
       run: dotnet test --configuration Release
     - name: Build
-      run: dotnet build TestProject1.sln
+      run: dotnet build TestProject1/TestProject1.csproj
 
     - name: Run NUnit tests
-      run: dotnet test TestProject1.sln --configuration Release
+      run: dotnet test TestProject1/TestProject1.csproj --configuration Release
 
 
     - name: Test
