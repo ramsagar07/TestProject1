@@ -20,6 +20,14 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install Appium
+      run: npm install -g appium
+
     - name: Start Appium server
       run: appium &
 
