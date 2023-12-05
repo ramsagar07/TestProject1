@@ -30,7 +30,7 @@ jobs:
 
     - name: Start Appium server
       run: appium &
-      working-directory: C:\Users\iray\source\repos\TestProject1\TestProject1
+     
 
     - name: Run SpecFlow tests
       run: dotnet test --configuration Release
